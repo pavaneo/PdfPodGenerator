@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D48F3AFC26832D47004CFE40 /* PdfPodGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48F3B0526832EEB004CFE40 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F3B0426832EEB004CFE40 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D48F3AF726832D47004CFE40 /* PdfPodGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PdfPodGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PdfPodGenerator.h; sourceTree = "<group>"; };
 		D48F3AFB26832D47004CFE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48F3B0426832EEB004CFE40 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */,
+				D48F3B0426832EEB004CFE40 /* Calculator.swift */,
 				D48F3AFB26832D47004CFE40 /* Info.plist */,
 			);
 			path = PdfPodGenerator;
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					D48F3AF626832D47004CFE40 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48F3B0526832EEB004CFE40 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		D48F3B0026832D47004CFE40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavanjain.PdfPodGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		D48F3B0126832D47004CFE40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
