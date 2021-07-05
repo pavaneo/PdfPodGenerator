@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D461A9D4269309920047289F /* bundle.swift in Resources */ = {isa = PBXBuildFile; fileRef = D461A9D3269309920047289F /* bundle.swift */; };
 		D48F3AFC26832D47004CFE40 /* PdfPodGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D48F3B0526832EEB004CFE40 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F3B0426832EEB004CFE40 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D461A9D3269309920047289F /* bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bundle.swift; sourceTree = "<group>"; };
 		D48F3AF726832D47004CFE40 /* PdfPodGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PdfPodGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PdfPodGenerator.h; sourceTree = "<group>"; };
 		D48F3AFB26832D47004CFE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				D48F3AFA26832D47004CFE40 /* PdfPodGenerator.h */,
 				D48F3B0426832EEB004CFE40 /* Calculator.swift */,
+				D461A9D3269309920047289F /* bundle.swift */,
 				D48F3AFB26832D47004CFE40 /* Info.plist */,
 			);
 			path = PdfPodGenerator;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D461A9D4269309920047289F /* bundle.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
